@@ -1,0 +1,26 @@
+Q3 Below is a public API along with its parameters
+https://api.publicapis.org/entries?
+
+Now, answer the following questions based on the above API. Important -
+Add screenshots or steps you followed to get your answer:
+• How many data entries are available for the category - Animals
+• Return the link/URL of any website related to holidays
+
+Answer 1
+1. Set the request to GET
+2. Put https://api.publicapis.org/entries on the url
+3. Add parameter with key category and its value Animals
+4. Click Send
+5. On the response body, you can see there is obj with name count and its value based on the request
+
+Answer 2
+1. Set the request to GET
+2. Put https://api.publicapis.org/entries on the url
+3. Add parameter with key description and its value holiday
+4. On the tests tab. type this code
+      const response = pm.response.json()
+      console.log(response.entries.map(function (holiday) {
+          return holiday.Link
+      }))
+5. Run the request and open console
+6. You will see array of link that related to holiday
