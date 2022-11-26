@@ -1,0 +1,4 @@
+1. I can input day format that can not be more than 31 in startingDate input field and leavingDate input field
+2. I can input hours format more than 23:59 in startingTime input field and leavingTime input field
+3. I can input in startingDate and leavingDate without date format
+4. I can input alphabet in startingTime and leavingTime
