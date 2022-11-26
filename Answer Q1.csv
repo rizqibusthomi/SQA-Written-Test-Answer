@@ -1,0 +1,139 @@
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Test ID,Session,Page/Stage,User Story,Summary,Action Step,Expected Result
+,User,Create,"As a user, I want to create a public gist","As a user, i can open https://gist.github.com/",1. User go to https://gist.github.com/,"non login
+1. redirect to https://gist.github.com/starred
+login 
+1. create new gist page open"
+,User,,,"As a user, i can input Gist Description","1. User go to https://gist.github.com/
+2. User input in gist description field","1. user can input any char
+2. desc inputted"
+,User,,,"As a user, i can input filename","1. User go to https://gist.github.com/
+2. User input in filename field","1. user can input any char
+2. filename inputted"
+,User,,,"As a user, i can input content","1. User go to https://gist.github.com/
+2. User input in content field","1. user can input any char
+2. content inputted"
+,User,,,"As a user, i can choose type of spaces","1. User go to https://gist.github.com/
+2. User click space drop down
+3. User choose type of spaces","1. List of spaces
+  1. Spaces
+  2. Tab
+2. Type of spaces selected"
+,User,,,"As a user, i can choose type of indent","1. User go to https://gist.github.com/
+2. User click indent drop down
+3. User choose type of indent","1. List of spaces
+  1. 2
+  2. 4
+  3. 8
+2. Type of indent selected"
+,User,,,"As a user, i can choose type of wrap","1. User go to https://gist.github.com/
+2. User click wrap drop down
+3. User choose type of wrap","1. List of spaces
+  1. No wrap
+  2. Soft wrap
+2. Type of wrap selected"
+,User,,,"As a user, i can add another file","1. User go to https://gist.github.com/
+2. User click add file button",New content section appears
+,User,,,"As a user, i can delete other content section","1. User go to https://gist.github.com/
+2. User click add file button
+3. User click remove button",Content section deleted
+,User,,,"As a user, i can choose type of gist i want create","1. User go to https://gist.github.com/
+2. User click down arrow button next to create secret gist
+3. User choose type of gist","1. List of create gist
+  1. Secret gist
+  2. Public gist
+2. Type of gist selected"
+,User,,,"As a user, i can save gist","1. User go to https://gist.github.com/
+2. User input in gist desc field
+3. User input in filename field
+4. User input in content field
+5. User click create secret/public gist button",Redirect to the file 
+,User,Edit,"As a user, I want to edit an existing gist.","As a user, i can open file existing gist","1. User go to profile 
+2. User click filename ",Redirect to the file 
+,User,,,"As a user, i can edit the file","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container",Redirect to editing gist page 
+,User,,,"As a user, i can edit Gist Description","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User edit text in gist description field","1. user can input any char
+2. desc inputted"
+,User,,,"As a user, i can edit filename","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User edit text in filename field","1. user can input any char
+2. filename inputted"
+,User,,,"As a user, i can edit content","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User edit text in content field","1. user can input any char
+2. content inputted"
+,User,,,"As a user, i can choose type of spaces","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click space drop down
+5. User choose type of spaces","1. List of spaces
+  1. Spaces
+  2. Tab
+2. Type of spaces selected"
+,User,,,"As a user, i can choose type of indent","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click indent drop down
+5. User choose type of indent","1. List of spaces
+  1. 2
+  2. 4
+  3. 8
+2. Type of indent selected"
+,User,,,"As a user, i can choose type of wrap","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click wrap drop down
+5. User choose type of wrap","1. List of spaces
+  1. No wrap
+  2. Soft wrap
+2. Type of wrap selected"
+,User,,,"As a user, i can add another file","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click add file button",New content section appears
+,User,,,"As a user, i can delete other content section","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click add file button
+5. User click remove button",Content section deleted
+,User,,,"As a user, i can choose type of gist i want create","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click down arrow button next to create secret gist
+5. User choose type of gist","1. List of create gist
+  1. Secret gist
+  2. Publick gist
+2. Type of gist selected"
+,User,,,"As a user, i can update gist","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User edit in gist desc field
+5. User edit in filename field
+6. User edit in content field
+7. User click update secret/public gist button",Redirect to the file 
+,User,,,"As a user, i can cancel editing gist","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click cancel button",Redirect to the file 
+,User,Delete,"As a user, I want to delete an existing gist.","As a user, i can open file existing gist","1. User go to profile 
+2. User click filename ",Redirect to the file 
+,User,,,"As a user, i can delete existing gist in file page","1. User go to profile 
+2. User click filename 
+3. User click delete button in pagehead","1. Prompt appears
+2. if click cancel, nothing change
+3. if click ok, the file deleted and redirect to profile page"
+,User,,,"As a user, i can delete existing gist in editing gist page","1. User go to profile 
+2. User click filename 
+3. User click edit button in pagehead container
+4. User click delete button in pagehead container","1. Prompt appears
+2. if click cancel, nothing change
+3. if click ok, the file deleted and redirect to profile page"
